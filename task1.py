@@ -15,7 +15,7 @@ def caching_fibonacci():
         elif n in cache:
             return cache[n]
         else:
-            cache[n] = fibonacci(n - 1) + fibonacci(n - 2)
+            cache[n] = fibonacci(n - 1) + fibonacci(n - 2) #обчислює ряд фібоначчі
             return cache[n]
 
     return fibonacci
